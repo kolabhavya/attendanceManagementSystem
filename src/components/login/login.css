@@ -1,0 +1,126 @@
+.login{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    /* gap: 200px; */
+}
+.btn{
+    background-color: transparent;
+    padding: 0px;
+    border: none;
+    height: 50px;
+    width: 250px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #e87e6a;
+    cursor: pointer;
+    border: 1.5px solid rgba(232, 126, 106);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 4px 0px 4px rgba(0,0,0,0.2);
+    /* padding-bottom: 10px; */
+}
+.form{
+    border: 1.5px solid rgba(232, 126, 106);
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height:350px;
+    box-shadow: 6px 6px 5px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.input-grp{
+    position: relative;
+    margin: 50px auto 0px;
+}
+.input-grp label{
+    position: absolute;
+    top : 50%;
+    left : 5px;
+    transform: translateY(-100%);
+    font-size: 1.25rem;
+    padding: 0 5px;
+    pointer-events:none;
+    transition: .5s;
+    color: black;
+    font-weight: 700;
+}
+.input-grp input{
+    width: 320px;
+    height: 40px;
+    font-size: 1.25rem;
+    padding : 0 10px;
+    background: transparent;
+    border:none;
+    border-bottom: 1.2px solid #e87e6a;
+    outline: none;
+    /* margin-bottom: 20px; */
+}
+
+.input-grp input:focus~label,
+.input-grp input:not(:placeholder-shown)~label{
+    top:0;
+
+}
+
+.frmbtn{
+    margin: auto;
+}
+.frmbtn button{
+    background: transparent;
+    outline: none;
+    border: 1.2px solid #e87e6a;
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    transition: 5ms;
+    font-size: larger;
+}
+
+.frmbtn button:hover{
+    background: #e87e6a;
+    color: white;
+}
+.stubtn{
+    background: #e87e6a;
+    color: white;
+}
+.inp-grp-logo{
+    margin :auto;
+    display: flex;
+    flex-direction: row;
+}
+.userlogo{
+    width: 50px;
+    height: 50px;
+    background: url(../../utils/imgs/user.png) center no-repeat;
+    background-size: contain;
+    align-items: end;
+    justify-content: end;
+    margin-top: auto;
+    margin-right: 20px;
+}
+.passlogo{
+    width: 50px;
+    height: 50px;
+    background: url(../../utils/imgs/password.png) center no-repeat;
+    background-size: contain;
+    margin-top: auto;
+    margin-right: 20px;
+}

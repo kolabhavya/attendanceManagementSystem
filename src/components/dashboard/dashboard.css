@@ -1,0 +1,45 @@
+.containerdb{
+    height: 700px;
+    border: 1.3px solid black;
+    margin: 50px 100px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+}
+.details{
+    height: 100px;
+    border-bottom: 1.3px solid black;
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    background: #e87e6a;
+}
+
+.year,.branch,.section{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.btn-sub{
+    margin: auto;
+    background-color: white;
+    font-size: 1.2rem;
+    border: 1.2px solid black;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+.details-label{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    
+}
+.details-select{
+    width: fit-content;
+    height: 30px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: white;
+    border: 1.3px solid black;
+    border-radius: 5px;
+}
